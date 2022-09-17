@@ -2,6 +2,7 @@ package in.ashok.beans;
 
 public class Car {
 	private IEngine eng;
+	private int i;
 	public Car()
 	{
 		System.out.println("car constructor");
@@ -9,6 +10,7 @@ public class Car {
 	
 	public void setEng(IEngine eng)
 	{
+		
 		System.out.println("set engine called");
 		this.eng=eng;
 	}
