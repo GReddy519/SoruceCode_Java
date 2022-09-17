@@ -11,7 +11,7 @@ public class Car {
 	public void setEng(IEngine eng)
 	{
 		
-		System.out.println("set engine called");
+		System.out.println("set called");
 		this.eng=eng;
 	}
 	
