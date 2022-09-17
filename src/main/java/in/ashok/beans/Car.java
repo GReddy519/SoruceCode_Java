@@ -17,6 +17,7 @@ public class Car {
 	
 	public void drive()
 	{
+		System.out.println("drive method");
 		
 		int status=eng.start();
 		if(status==0)
